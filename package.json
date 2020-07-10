@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node-sass scss/application.scss styles.css",
-    "start": "node-sass --watch scss/application.scss styles.scss"
+    "start": "npm run build & node-sass --watch scss/application.scss styles.css"
   },
   "repository": {
     "type": "git",
