@@ -1,0 +1,82 @@
+@import 'variables/colors';
+
+@import './layout';
+
+@import './normalizer';
+
+body {
+  position: relative;
+}
+
+.main-container {
+  align-items: center;
+  display: flex;
+  background: $black-squeeze;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+
+.card-container {
+  box-shadow: 0px 45px 100px -60px $cadet-blue;
+}
+
+.card-container {
+  background: $white;
+  border-radius: 12px;
+  color: rgba($color: $lynch, $alpha: 0.8);
+  max-width: 725px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.card-img {
+  filter: contrast(110%);
+  object-fit: cover;
+  object-position: 0;
+  width: 300px;
+}
+
+.card-info {
+  padding: 35px 35px;
+  width: 100%;
+}
+
+.card-title {
+  color: $fior;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-author-img {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+.card-author-name,
+.card-date {
+  font-size: 12px;
+}
+
+.card-author-name {
+  color: $fior;
+  font-weight: bold;
+}
+
+.card-action-btn {
+  background: $black-squeeze;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+}
+
+.attribution {
+  bottom: 0;
+  color: $lynch;
+  font-size: 11px;
+  padding: 15px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
