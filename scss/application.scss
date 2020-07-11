@@ -1,6 +1,8 @@
 @import 'variables/colors';
 @import 'variables/breakpoints';
 
+@import './fonts.scss';
+
 @import './layout';
 
 @import './normalizer';
@@ -9,6 +11,8 @@ $card-border: 12px;
 $card-info-padding: 35px;
 
 body {
+  font-family: 'Manrope', sans-serif;
+  font-size: 13px;
   position: relative;
 }
 
