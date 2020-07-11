@@ -1,0 +1,18 @@
+.row {
+  display: flex;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+@for $i from 1 through 10 {
+  .m-bottom-#{i} {
+    margin-bottom: #{10 * $i / 2};
+  }
+
+  .m-right-#{i} {
+    margin-right: #{10 * $i / 2};
+  }
+}
