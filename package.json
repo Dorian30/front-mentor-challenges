@@ -1,7 +1,7 @@
 {
   "name": "front-mentor-challenges",
   "version": "1.0.0",
-  "description": "First exercise of front mentor challenges",
+  "description": "Second exercise of front mentor challenges",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
