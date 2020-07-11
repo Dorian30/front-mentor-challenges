@@ -1,0 +1,30 @@
+.row {
+  display: flex;
+
+  &.space-between {
+    justify-content: space-between;
+  }
+
+  &.center {
+    justify-content: center;
+  }
+
+  &.middle {
+    align-items: center;
+  }
+}
+
+.column {
+  display: column;
+  flex-direction: column;
+}
+
+@for $i from 1 through 10 {
+  .m-bottom-#{$i} {
+    margin-bottom: #{10 * $i / 2}px;
+  }
+
+  .m-right-#{$i} {
+    margin-right: #{10 * $i / 2}px;
+  }
+}
