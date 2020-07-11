@@ -2,6 +2,6 @@
 
 Challenges I did from front mentor's website on my spare time... just for fun.
 
-## Live preview
+## Live URLs
 
-- (https://fm-challenge-01.vercel.app/)[Article Component]
+- [Article Component (Challenge #1)](https://fm-challenge-01.vercel.app/)
