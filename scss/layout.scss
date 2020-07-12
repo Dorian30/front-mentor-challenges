@@ -1,5 +1,21 @@
 .row {
   display: flex;
+
+  &.middle {
+    align-items: center;
+  }
+
+  &.bottom {
+    align-items: flex-end;
+  }
+
+  &.center {
+    justify-content: center;
+  }
+
+  &.space-between {
+    justify-content: space-between;
+  }
 }
 
 .column {
@@ -7,12 +23,16 @@
   flex-direction: column;
 }
 
+.full-width {
+  width: 100%;
+}
+
 @for $i from 1 through 10 {
-  .m-bottom-#{i} {
-    margin-bottom: #{10 * $i / 2};
+  .m-bottom-#{$i} {
+    margin-bottom: #{10 * $i / 2}px;
   }
 
-  .m-right-#{i} {
-    margin-right: #{10 * $i / 2};
+  .m-right-#{$i} {
+    margin-right: #{10 * $i / 2}px;
   }
 }
