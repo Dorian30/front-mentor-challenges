@@ -80,6 +80,11 @@ body {
   }
 }
 
+.uploader-title {
+  opacity: 0;
+  z-index: -1;
+}
+
 .uploader-logo {
   height: 45px;
   width: 140px;
