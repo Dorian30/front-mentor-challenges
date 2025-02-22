@@ -1,0 +1,88 @@
+:root {
+  --white: hsl(0, 0%, 100%);
+  --black: hsl(0, 0%, 0%);
+
+  --slate-300: hsl(212, 45%, 89%);
+  --slate-500: hsl(216, 15%, 48%);
+  --slate-900: hsl(218, 44%, 22%);
+
+  --spacing-lg: 4rem;
+  --spacing-md: 2.4rem;
+  --spacing-sm: 1.6rem;
+
+  --font-size-paragraph: 1.5rem;
+  --font-size-title: 2.2rem;
+  --font-weight-bold: 700;
+  --font-weight-normal: 400;
+
+  --breakpoint-mobile: 37.5em;
+  --breakpoint-desktop: 144em;
+
+  --round-20: 20px;
+  --round-10: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+main {
+  height: 100vh;
+  background: var(--slate-300);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.qrcode {
+  max-width: 28.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+  padding: var(--spacing-sm) var(--spacing-sm) var(--spacing-lg);
+  background: var(--white);
+  border-radius: var(--round-20);
+  box-shadow: 0px 25px 25px rgba(var(--black), 0.0477);
+}
+
+.qrcode__image {
+  border-radius: var(--round-10);
+  width: 100%;
+}
+
+.qrcode__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-sm);
+}
+
+.qrcode__title {
+  color: var(--slate-900);
+  text-align: center;
+  font-size: var(--font-size-title);
+  font-weight: var(--font-weight-bold);
+  line-height: 120%;
+  letter-spacing: 0;
+}
+
+.qrcode__description {
+  color: var(--slate-500);
+  text-align: center;
+  font-size: var(--font-size-paragraph);
+  font-weight: var(--font-weight-normal);
+  line-height: 140%;
+  letter-spacing: 0.2px;
+}
