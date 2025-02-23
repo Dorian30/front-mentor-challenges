@@ -47,7 +47,7 @@ main {
 }
 
 .qrcode {
-  max-width: 28.8rem;
+  max-width: 32rem;
   display: flex;
   flex-direction: column;
   gap: var(--spacing-md);
